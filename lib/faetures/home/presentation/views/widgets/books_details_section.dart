@@ -16,7 +16,7 @@ class BooksDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * 0.3),
-          child: const FeaturedListViewItem(),
+          child: const FeaturedListViewItem(imageUrl: 'assets/images/Book 1 High.png'),
         ),
         const SizedBox(
           height: 30,
@@ -31,9 +31,9 @@ class BooksDetailsSection extends StatelessWidget {
         const SizedBox(
           height: 16,
         ),
-        BookRating(
+      /*  BookRating(
           mainAxisAlignment: MainAxisAlignment.center,
-        ),
+        ),*/
         const SizedBox(
           height: 40,
         ),
